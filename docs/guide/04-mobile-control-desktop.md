@@ -17,6 +17,12 @@ description: "手机端跟进桌面 Codex 任务教程，说明 ChatGPT App 入�
 
 ![ChatGPT 手机 App 中的 Codex 入口](../images/mobile-codex-ios-app.jpg)
 
+测试一下cdn图片看看：
+
+![](https://cdn.canghecode.com/blog/ChatGPT%20Image%202026%E5%B9%B45%E6%9C%8827%E6%97%A5%2017_32_10.png)
+
+
+
 连接桌面 Codex APP：
 
 ![手机端连接桌面 Codex App](../images/mobile-codex-connect-desktop.jpg)
