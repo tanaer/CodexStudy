@@ -1,3 +1,7 @@
+---
+description: "手机端跟进桌面 Codex 任务教程，说明 ChatGPT App 入口、跨设备连接、任务查看和协同边界。"
+---
+
 # 用手机端 Codex 跟进桌面任务
 
 ::: tip 最后核对

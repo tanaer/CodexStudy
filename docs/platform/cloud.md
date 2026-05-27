@@ -1,3 +1,7 @@
+---
+description: "Codex Cloud 与 Web 入口说明，介绍后台任务、并行处理、GitHub 连接、PR 生成和团队协作场景。"
+---
+
 # Cloud / Web
 
 Cloud / Web 入口适合处理耗时更长、需要后台运行或需要与 GitHub 协作的任务。它把 Codex 任务放进可管理的云端环境，适合团队分派、长任务跟踪和 PR 工作流。

@@ -1,3 +1,7 @@
+---
+description: "Codex 与 HyperFrames 案例，说明如何用代码生成动画视频，组织素材、脚本、渲染和结果验证。"
+---
+
 # Codex × HyperFrames：用代码生成动画视频
 
 **HyperFrames** 和前段时间很火的 **Remotion** 都属于代码化的视频生成：

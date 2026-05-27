@@ -1,3 +1,7 @@
+---
+description: "Codex MCP、Skills 与 Subagents 指南，说明外部工具接入、流程固化和复杂任务拆分的使用场景。"
+---
+
 # MCP、Skills 与 Subagents
 
 当你已经能稳定完成单次任务，下一步就是把 Codex 变成可扩展的工作系统：用 MCP 连接工具和数据源，用 Skills 固化流程，用 Subagents 拆分复杂工作。

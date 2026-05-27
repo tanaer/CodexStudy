@@ -1,3 +1,7 @@
+---
+description: "Codex 与 GitHub Actions 案例，说明 CI 失败后如何读取日志、定位问题、自动修复并生成 PR。"
+---
+
 # Codex × GitHub Actions：CI 失败自动修复实测
 
 这篇文章记录了一次真实的实测：CI 一挂，Codex 自动读代码、找问题、改好、开 PR，等你合并，全程不需要人工介入。

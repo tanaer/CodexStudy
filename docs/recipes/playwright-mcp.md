@@ -1,3 +1,7 @@
+---
+description: "Codex 与 Playwright MCP 案例，说明如何让 AI 操作浏览器、点击页面、截图检查并验证网页状态。"
+---
+
 # Codex × Playwright MCP：让 AI 像人一样操控浏览器
 
 本章节介绍 **Playwright MCP**。这是一个基于 Playwright 的 MCP 服务器，它把打开浏览器、访问网页、点击按钮、填写输入框、读取页面内容、截图、验证结果等浏览器操作，封装成 AI 可以调用的工具。

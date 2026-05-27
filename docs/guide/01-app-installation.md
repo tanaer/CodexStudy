@@ -1,3 +1,7 @@
+---
+description: "Codex 桌面 App 下载与安装教程，说明 macOS、Windows 安装入口、账号登录和首次启动前的准备工作。"
+---
+
 # Codex 桌面 App 下载与安装
 
 ::: tip 最后核对

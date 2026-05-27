@@ -1,3 +1,7 @@
+---
+description: "Codex 与 Notion MCP 案例，说明如何连接 Notion 知识空间、读取页面、整理数据库和生成内容。"
+---
+
 # Codex × Notion MCP：打通你的知识工作空间
 
 **Notion** 不只是一款笔记软件——它在 AI 时代完成了转型，成为了真正的 AI Native 产品。通过 Notion MCP，你可以让 Codex 直接读取、总结和写入你的 Notion 工作空间，实现真正的 AI 驱动知识管理。

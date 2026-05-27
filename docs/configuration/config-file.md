@@ -1,3 +1,7 @@
+---
+description: "Codex config.toml 配置指南，说明模型、沙盒、审批、profiles、MCP 和个人本地配置的组织方式。"
+---
+
 # 配置文件 config.toml
 
 `config.toml` 用来保存 Codex CLI 的本地默认行为。你可以把它理解为“个人驾驶舱”：模型、审批、沙盒、profiles、MCP 服务等偏好都可以在这里集中管理。

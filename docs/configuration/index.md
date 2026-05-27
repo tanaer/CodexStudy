@@ -1,3 +1,7 @@
+---
+description: "Codex 配置与扩展总览，梳理 AGENTS.md、config.toml、Skills、MCP、Subagents、安全审批和团队配置路径。"
+---
+
 # 配置与扩展总览
 
 Codex 的学习曲线有两个阶段：先会用，再会配置。会用解决单次任务，会配置能把 Codex 变成稳定的个人工作台和团队协作工具。

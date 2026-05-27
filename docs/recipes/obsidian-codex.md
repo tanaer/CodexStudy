@@ -1,3 +1,7 @@
+---
+description: "Codex 与 Obsidian 案例，说明如何在本地知识库中生成内容、管理图片、组织笔记和保留引用。"
+---
+
 # Codex × Obsidian：在知识库中自动生成配图
 
 **Obsidian** 是本地优先的知识管理工具。随着 Agent 能力的增强，Obsidian 的使用方式也在发生变化。本篇介绍如何在 Obsidian 里使用 Codex，完成日常的内容创作流程。

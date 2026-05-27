@@ -1,3 +1,7 @@
+---
+description: "ChatGPT Plus 与 Pro 订阅指南，整理 Codex 可用性、账号准备、支付路径和订阅前需要核对的信息。"
+---
+
 # 订阅 ChatGPT Plus / Pro
 
 ::: tip 最后核对

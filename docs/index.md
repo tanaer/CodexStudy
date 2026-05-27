@@ -2,6 +2,7 @@
 home: true
 icon: home
 title: CodexGuide
+description: "CodexGuide 系统整理 Codex 桌面 App、CLI、IDE、Cloud、Skills 与真实案例，帮助中文用户从入门到团队落地。"
 pageClass: codex-home-page
 heroImage: /logo.svg
 heroText: CodexGuide

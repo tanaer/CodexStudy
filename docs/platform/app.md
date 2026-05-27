@@ -1,3 +1,7 @@
+---
+description: "Codex 桌面 App 入口说明，介绍本地项目、多任务、Skills、Automations、插件和桌面工作台场景。"
+---
+
 # 桌面 App（电脑端）
 
 这里的桌面 App 指电脑端客户端，不是手机 App。它更像一个本地 Codex 工作台，适合在一个项目里管理多条任务线：你可以让不同 agent 并行探索、实现、验证，也可以用 Skills、Automations、Worktrees 和插件化能力沉淀长期流程。

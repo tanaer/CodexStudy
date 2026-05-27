@@ -1,3 +1,7 @@
+---
+description: "Codex 实战案例库，收录 PPT、Draw.io、Playwright、Obsidian、飞书、Figma、Notion、CI 和远程排障案例。"
+---
+
 # 实战案例库
 
 这里收集可复现、可改写、可迁移到真实工作流里的 Codex 使用案例。当前版本已收录 13 个案例，覆盖 Skill、MCP、浏览器自动化、知识库、设计稿、团队协作、远程排障和 CI 自动修复。

@@ -1,3 +1,7 @@
+---
+description: "Codex CLI 安装与登录教程，覆盖 Node 环境、安装命令、版本检查、登录流程和首次运行准备。"
+---
+
 # 安装与登录
 
 本页先覆盖 Codex CLI 的安装与登录。桌面端、ChatGPT、Cloud 和 IDE 入口会在 [入口地图](/platform/) 中分别展开。

@@ -1,3 +1,7 @@
+---
+description: "Codex Skills 和 Plugins 入门说明，介绍技能、插件、MCP 能力的关系，以及适合沉淀的工作流类型。"
+---
+
 # Skills 和 Plugins
 
 这一节介绍 Codex 里的 `Skills` 和 `Plugins`。不同版本的 App 或工作区里，入口位置和展示方式可能会调整，但核心区别相对稳定：`Skill` 更像可复用的工作流程说明，`Plugin` 更像把一组能力打包后分发和安装的方式。

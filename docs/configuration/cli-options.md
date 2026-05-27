@@ -1,3 +1,7 @@
+---
+description: "Codex CLI 选项与命令指南，覆盖交互模式、非交互执行、恢复会话、Slash Commands 和常用启动参数。"
+---
+
 # CLI 选项与命令
 
 CLI 是 Codex 最适合练基本功的入口。本页按官方教程的逻辑，把交互模式、非交互模式、会话恢复、Slash Commands 和常用启动参数整理成中文实操版。

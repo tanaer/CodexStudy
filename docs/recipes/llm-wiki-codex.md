@@ -1,3 +1,7 @@
+---
+description: "Codex 与 LLM Wiki 案例，说明如何在 Obsidian 中搭建 AI 知识库、整理目录、引用和更新流程。"
+---
+
 # Codex × LLM Wiki：在 Obsidian 中搭建 AI 知识库
 
 大部分人使用大模型处理文档都停留在 **RAG 模式**（检索增强生成，Retrieval-Augmented Generation）。这是当前 AI 行业最主流的知识管理范式：上传文件，提问时系统检索相关片段，让大模型基于这些片段生成回答。NotebookLM、ChatGPT 的文件上传，以及几乎所有的企业级知识库走的都是这条路。
