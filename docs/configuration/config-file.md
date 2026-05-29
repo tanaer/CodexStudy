@@ -132,6 +132,79 @@ approval_policy = "on-request"
 请补充切换 profile 后的状态截图。建议文件：`docs/.vuepress/public/screenshots/config/03-profile-status.png`。
 :::
 
+## 切换 provider 后历史会话不可见怎么办
+
+有些用户在修改根级 `model_provider` 后，会发现旧会话在 Codex Desktop 或 CLI 的 `/resume` 里突然不可见。常见原因不是会话文件丢失，而是 `~/.codex` 里的会话 metadata、SQLite 状态和项目路径缓存仍停留在旧 provider。
+
+::: warning 第三方社区工具
+下面介绍的是社区项目 [Dailin521/codex-provider-sync](https://github.com/Dailin521/codex-provider-sync)，不是 OpenAI 官方工具。社区资料最后核对日期：2026-05-29。使用前请先备份 `~/.codex`，并确认你理解它会修改本机 Codex 状态文件。
+:::
+
+这个工具主要同步这些位置里的 provider / 可见性 metadata：
+
+- `~/.codex/sessions`
+- `~/.codex/archived_sessions`
+- `~/.codex/state_5.sqlite`
+- `.codex-global-state.json` 中的项目根路径缓存
+
+先做两个判断：
+
+- 如果 CLI `/resume` 能看到旧会话，但 Desktop 项目侧仍为空，可能是 Codex Desktop 最近 50 条会话的首屏显示限制，不一定是 provider metadata 问题。
+- 如果最近刚切换过 `model_provider`，并且多个入口都找不到旧会话，再考虑使用同步工具。
+
+### Windows GUI 流程
+
+Windows 用户可以优先使用上游 Release 里的图形界面版本：
+
+1. 打开 [codex-provider-sync Releases](https://github.com/Dailin521/codex-provider-sync/releases)，下载 `CodexProviderSync.exe`。
+2. 双击运行后，先确认顶部 `Codex Home` 路径指向你的 `.codex` 目录。
+3. 点击 `Refresh`，查看当前 provider、rollout、SQLite 和项目可见性诊断。
+4. 在 provider 列表里选择目标 Provider。
+5. 如果希望同时改写 `config.toml` 根级 `model_provider`，再勾选右侧对应选项。
+6. 点击 `Execute` 执行同步。
+7. 如果结果不符合预期，用 `Restore Backup` 从工具生成的备份目录恢复。
+
+GUI 会默认保留最近几份由本工具创建的备份。若 `state_5.sqlite` 被占用，先关闭 Codex、Codex App 或 app-server 后再重试。
+
+### macOS 或 CLI 流程
+
+CLI 版本需要 Node.js `24+`。如果你使用 Node 20/22，可能会遇到 `node:sqlite` 不存在的问题。
+
+```bash
+npm install -g git+https://github.com/Dailin521/codex-provider-sync.git
+codex-provider status
+```
+
+建议先只运行 `status`，确认它看到的 provider、rollout、SQLite 和项目可见性诊断符合预期。确认后再选择操作：
+
+```bash
+codex-provider sync
+codex-provider sync --provider openai
+codex-provider switch <provider-id>
+codex-provider restore <backup-dir>
+```
+
+常用命令含义：
+
+| 命令 | 作用 |
+| --- | --- |
+| `codex-provider status` | 只检查当前 provider、rollout、SQLite 和项目可见性，不执行同步 |
+| `codex-provider sync` | 不切换登录状态，只把历史会话 metadata 同步到当前 provider |
+| `codex-provider sync --provider openai` | 指定目标 provider 后同步 metadata |
+| `codex-provider switch <provider-id>` | 修改 `config.toml` 根级 `model_provider`，然后执行同步 |
+| `codex-provider restore <backup-dir>` | 从备份恢复，适合结果不符合预期时回滚 |
+
+### 能力边界
+
+它只处理“历史会话可见性”相关 metadata，不是账号切换器，也不是认证修复工具：
+
+- 不处理登录、认证、`auth.json` 或第三方切号工具。
+- 不修改消息历史、会话标题和对话内容。
+- 不修改 `updated_at`，也不会通过改变历史排序绕过 Desktop 最近 50 条限制。
+- 含 `encrypted_content` 的旧会话跨 provider 或 account 后，通常只能恢复列表可见性；继续对话或 compact 仍可能报 `invalid_encrypted_content`。
+
+上游说明请看 [README](https://github.com/Dailin521/codex-provider-sync) 和 [GUI 中文说明](https://github.com/Dailin521/codex-provider-sync/blob/main/docs/README_GUI_ZH.md)。如果你只是想稳定使用 Codex，优先理解本页前面的 `config.toml` 配置方式；遇到 provider 切换后的历史会话不可见，再把这个工具作为排障选项。
+
 ## 团队配置建议
 
 适合进仓库的内容：
@@ -158,6 +231,7 @@ approval_policy = "on-request"
 | Codex 权限超出预期 | 检查 `sandbox_mode` 和 `approval_policy` |
 | 某个命令一直被拒绝 | 检查沙盒限制、网络权限和组织策略 |
 | MCP 无法连接 | 检查服务命令、环境变量、端口、认证方式 |
+| 切换 provider 后旧会话不可见 | 先判断是否是 Desktop 最近 50 条显示限制，再检查 provider metadata 是否需要同步 |
 | 团队成员行为不一致 | 把项目共同规则写进 `AGENTS.md` |
 
 ## 官方资料延伸

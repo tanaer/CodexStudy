@@ -55,3 +55,18 @@ description: "Codex 排障手册，汇总登录、安装、权限、依赖、命
 - 重新运行登录流程。
 - 检查当前账号计划和组织策略。
 - 查看官方 Help Center 的 Codex 相关文章。
+
+## 切换 provider 后旧会话不可见
+
+可能原因：
+
+- 修改过 `config.toml` 根级 `model_provider`。
+- 旧会话文件还在，但会话 metadata、SQLite 状态或项目路径缓存仍指向旧 provider。
+- CLI `/resume` 能看到旧会话，但 Codex Desktop 项目侧看不到，可能只是 Desktop 最近 50 条会话的首屏显示限制。
+
+处理方式：
+
+- 先确认 `~/.codex/sessions` 或 `~/.codex/archived_sessions` 里是否还存在旧会话文件。
+- 如果只是 Desktop 项目侧不可见，先判断是否被最近 50 条显示限制挡住。
+- 如果确认是切换 provider 后 metadata 不一致，再参考 [config.toml 里的社区工具说明](../configuration/config-file.md#切换-provider-后历史会话不可见怎么办)。
+- 使用第三方工具前先备份 `~/.codex`，不要把它当成官方认证或账号切换工具。
