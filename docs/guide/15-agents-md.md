@@ -1,5 +1,5 @@
 ---
-description: "AGENTS.md 项目规则指南，说明如何写入项目命令、代码风格、禁用事项、验证方式和团队约定，让 Codex 更懂仓库。"
+description: "AGENTS.md 项目规则指南，说明如何写入项目命令、代码风格、禁用事项、验证方式、团队约定和本地私有规则，让 Codex 更懂仓库。"
 redirectFrom:
   - /guide/14-agents-md.html
 ---
@@ -52,6 +52,82 @@ redirectFrom:
 设置全局文件后，对于所有的项目都会生效。所以它们的作用域和作用范围是不一样的，这一点大家需要了解一下。
 
 ![image-20260513125644728](../images/image-20260513125644728.png)
+
+## 团队共享规则和本地私有规则
+
+多人协作时，`AGENTS.md` 适合保存团队共同认可的项目规则；个人路径、本机工具习惯、临时约束和私有工作流偏好，则更适合留在本地。这样团队规则保持稳定，个人习惯也不会被提交到仓库。
+
+### 使用场景
+
+下面这些内容适合放在本地私有规则里：
+
+- 本机缓存、SDK、脚本或临时目录路径。
+- 个人常用命令、别名、编辑器习惯。
+- 只对自己有效的语言风格、回复格式、验证偏好。
+- 不方便进入团队文档的临时限制，例如“今天先只做只读分析”。
+
+### 文件分工
+
+| 文件 | 作用 | 是否提交到 Git |
+| --- | --- | --- |
+| `AGENTS.md` | 团队共享的项目规则、命令、边界和交付要求 | 可以提交 |
+| `AGENTS.local.md` | 个人本地偏好、私有路径和临时规则 | 应加入 ignore |
+| `AGENTS.override.md` | 本地工具生成的合并结果 | 应加入 ignore |
+
+### 推荐安装方式
+
+社区工具 [codex-agents-local](https://github.com/samzong/codex-agents-local) 提供了 `AGENTS.local.md` 的本地覆盖方案。它通过 Codex hooks 在会话开始或提交提示词时同步本地规则，默认会把工具安装到 `~/.local/bin`，并更新 `~/.codex/hooks.json`。
+
+安装前建议先让 Codex 审查安装提示词，再决定是否执行：
+
+```text
+Read https://github.com/samzong/codex-agents-local/blob/main/INSTALL_PROMPT.md
+
+Follow that prompt in Codex to install codex-agents-local.
+```
+
+::: warning 社区工具提示
+`codex-agents-local` 不是 Codex 官方功能。安装前请检查脚本会改哪些文件、会启用哪些 hooks、是否符合你的团队安全要求。
+:::
+
+### 安全边界
+
+使用本地私有规则时，建议遵守这些边界：
+
+- 不把 token、密钥、账号密码写进 `AGENTS.local.md`。
+- 把 `AGENTS.local.md` 和 `AGENTS.override.md` 加入全局 gitignore 或项目 `.gitignore`。
+- 不在本地规则里绕过团队的测试、审批和安全要求。
+- 每次引入 hooks 工具前，先确认它是否会替换命令、执行仓库文件、访问网络或写入敏感目录。
+
+### 验证命令
+
+安装或修改本地规则后，可以用这些命令检查状态：
+
+```bash
+codex-agents-local doctor
+codex-agents-local sync --cwd . --check
+codex-agents-local sync --cwd . --json
+```
+
+如果还没有安装社区工具，可以先检查 ignore 状态：
+
+```bash
+git check-ignore -v AGENTS.local.md AGENTS.override.md
+```
+
+### 适合和谨慎使用的情况
+
+适合使用：
+
+- 团队已经有稳定的 `AGENTS.md`，个人还需要补充本机规则。
+- 多个项目都需要同一套个人偏好，但这些偏好不适合进入仓库。
+- 本地规则经常变化，希望减少对团队规则文件的干扰。
+
+谨慎使用：
+
+- 团队对 hooks、自动化脚本或本地生成文件有严格限制。
+- 项目处理生产数据、客户数据、财务或医疗等高敏感信息。
+- 你还没有确认工具安装脚本和生成文件的具体行为。
 
 ## 推荐模板
 

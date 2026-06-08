@@ -54,7 +54,7 @@ export const pageDescriptions: Record<string, string> = {
   "/guide/14-ide-vscode.html":
     "在 VS Code 中使用 Codex 的教程，介绍插件入口、文件上下文、局部修改、解释代码和编辑器内协作方式。",
   "/guide/15-agents-md.html":
-    "AGENTS.md 项目规则指南，说明如何写入项目命令、代码风格、禁用事项、验证方式和团队约定，让 Codex 更懂仓库。",
+    "AGENTS.md 项目规则指南，说明如何写入项目命令、代码风格、禁用事项、验证方式、团队约定和本地私有规则，让 Codex 更懂仓库。",
   "/guide/16-sandbox-approvals.html":
     "Codex 沙盒、审批与安全边界指南，解释只读、写入、网络、危险命令和人工确认策略，适合高风险任务前检查。",
   "/guide/17-cloud-ide-app.html":

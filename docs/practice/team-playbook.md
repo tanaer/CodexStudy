@@ -38,6 +38,12 @@ description: "Codex 团队实践指南，整理 AGENTS.md、PR、排障、知识
 ## PR 交付要求
 ```
 
+## 共享规则与个人偏好
+
+团队的共同规则建议放进 `AGENTS.md`，例如项目结构、命令、测试要求、目录边界和安全红线。个人本机路径、私有工具习惯、临时限制和回复偏好，可以参考 [团队共享规则和本地私有规则](/guide/15-agents-md.html#团队共享规则和本地私有规则) 拆到 `AGENTS.local.md`。
+
+如果团队允许使用社区工具，可以评估 [codex-agents-local](https://github.com/samzong/codex-agents-local)。使用前先确认 `AGENTS.local.md` 和 `AGENTS.override.md` 已加入 ignore，并让 Codex 审查安装步骤对 `~/.local/bin` 与 `~/.codex/hooks.json` 的影响。
+
 ## PR 描述模板
 
 ```markdown
