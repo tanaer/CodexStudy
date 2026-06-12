@@ -21,6 +21,7 @@ export default navbar([
     children: [
       { text: "实践方法", icon: "tool", link: "/practice/" },
       { text: "官方资料", icon: "link", link: "/reference/" },
+      { text: "近期Codex更新", icon: "time", link: "/reference/codex-updates.md" },
       { text: "共建路线图", icon: "people", link: "/community/roadmap.md" },
     ],
   },

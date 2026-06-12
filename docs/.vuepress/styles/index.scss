@@ -509,6 +509,86 @@
   font-weight: 700;
 }
 
+.codex-update-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 9rem;
+  gap: 2.5rem;
+  align-items: start;
+}
+
+.codex-update-months {
+  grid-column: 2;
+  grid-row: 1;
+  position: sticky;
+  top: calc(var(--navbar-height) + 1.25rem);
+  padding-inline-start: 0.9rem;
+  border-inline-start: 2px solid var(--vp-c-border);
+}
+
+.codex-update-months a {
+  display: block;
+  padding: 0.38rem 0;
+  color: var(--vp-c-text-mute);
+  font-size: 0.9rem;
+  font-weight: 500;
+  line-height: 1.4;
+  text-decoration: none;
+}
+
+.codex-update-months a:hover,
+.codex-update-months a:first-child {
+  color: var(--vp-c-text);
+  text-decoration: none;
+}
+
+.codex-update-content {
+  grid-column: 1;
+  grid-row: 1;
+  min-width: 0;
+}
+
+.codex-update-entry {
+  margin: 2.75rem 0 3.25rem;
+}
+
+.codex-update-date {
+  margin: 0 0 0.9rem;
+  color: var(--vp-c-text-mute);
+  font-size: 0.98rem;
+  line-height: 1.5;
+}
+
+.codex-update-entry h3 {
+  margin: 0 0 1.4rem;
+  border: 0;
+  color: var(--vp-c-text);
+  font-size: clamp(1.35rem, 2.25vw, 1.85rem);
+  line-height: 1.18;
+}
+
+.codex-update-version {
+  color: var(--vp-c-text-mute);
+  font-weight: 650;
+}
+
+.codex-update-entry p {
+  margin: 1rem 0;
+  color: var(--vp-c-text);
+  font-size: 1.05rem;
+  line-height: 1.9;
+}
+
+.codex-update-entry ul {
+  margin: 1rem 0 0;
+}
+
+.codex-update-entry li {
+  margin: 0.65rem 0;
+  color: var(--vp-c-text);
+  font-size: 1.03rem;
+  line-height: 1.85;
+}
+
 @media (max-width: 1060px) {
   .home-metric-grid,
   .home-case-grid,
@@ -550,5 +630,41 @@
 
   .setting-card-grid {
     grid-template-columns: 1fr;
+  }
+
+  .codex-update-layout {
+    grid-template-columns: 1fr;
+    gap: 1.25rem;
+  }
+
+  .codex-update-months {
+    grid-column: 1;
+    grid-row: 1;
+    position: static;
+    display: flex;
+    gap: 0.5rem;
+    overflow-x: auto;
+    padding: 0 0 0.75rem;
+    border-inline-start: 0;
+    border-bottom: 1px solid var(--vp-c-border);
+  }
+
+  .codex-update-months a {
+    flex: 0 0 auto;
+    padding: 0.35rem 0.65rem;
+    border: 1px solid var(--vp-c-border);
+    border-radius: 999px;
+    font-size: 0.95rem;
+    white-space: nowrap;
+  }
+
+  .codex-update-months a:first-child {
+    border-color: var(--vp-c-accent);
+    color: var(--vp-c-accent);
+  }
+
+  .codex-update-content {
+    grid-column: 1;
+    grid-row: 2;
   }
 }

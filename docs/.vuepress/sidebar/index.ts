@@ -125,7 +125,7 @@ export default sidebar({
       text: "资料索引",
       icon: "link",
       prefix: "/reference/",
-      children: ["index.md"],
+      children: ["index.md", "codex-updates.md"],
     },
   ],
 

@@ -10,7 +10,7 @@ CodexGuide 按“认识入口、跑通任务、建立方法、团队沉淀”四
 官方资料最后核对日期：2026-05-27。核心来源包括 [OpenAI Codex 产品页](https://openai.com/codex/)、[Codex 文档入口](https://developers.openai.com/codex/)、[Codex CLI 官方仓库](https://github.com/openai/codex) 与 [Codex Help Center](https://help.openai.com/en/articles/11369540-codex-in-chatgpt)。
 :::
 
-![Codex 使用入口地图](/images/codex-surfaces.svg)
+![Codex 使用入口地图](/images/codex-surfaces.svg?v=20260611)
 
 ## 你要先建立的全局理解
 
