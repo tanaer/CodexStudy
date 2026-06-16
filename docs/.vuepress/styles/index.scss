@@ -120,9 +120,6 @@
     display: block;
   }
 
-  .vp-nav-links > .vp-nav-item:has(> .vp-dropdown-wrapper > .vp-dropdown-title[aria-label="交流群"]) {
-    display: none;
-  }
 }
 
 @media (max-width: 1520px) {
@@ -182,8 +179,7 @@
   .vp-nav-links > .vp-nav-item:has(> .vp-dropdown-wrapper > .vp-dropdown-title[aria-label="配置导航"]),
   .vp-nav-links > .vp-nav-item:has(> .vp-dropdown-wrapper > .vp-dropdown-title[aria-label="资源导航"]),
   .vp-nav-links > .vp-nav-item:has(> .vp-dropdown-wrapper > .vp-dropdown-title[aria-label="教程导航"]),
-  .vp-nav-links > .vp-nav-item:has(> .vp-dropdown-wrapper > .vp-dropdown-title[aria-label="实战案例导航"]),
-  .vp-nav-links > .vp-nav-item:has(> .vp-dropdown-wrapper > .vp-dropdown-title[aria-label="交流群"]) {
+  .vp-nav-links > .vp-nav-item:has(> .vp-dropdown-wrapper > .vp-dropdown-title[aria-label="实战案例导航"]) {
     display: none !important;
   }
 
@@ -212,8 +208,7 @@
   .vp-nav-links > .vp-nav-item:has(> .vp-dropdown-wrapper > .vp-dropdown-title[aria-label="配置导航"]),
   .vp-nav-links > .vp-nav-item:has(> .vp-dropdown-wrapper > .vp-dropdown-title[aria-label="资源导航"]),
   .vp-nav-links > .vp-nav-item:has(> .vp-dropdown-wrapper > .vp-dropdown-title[aria-label="教程导航"]),
-  .vp-nav-links > .vp-nav-item:has(> .vp-dropdown-wrapper > .vp-dropdown-title[aria-label="实战案例导航"]),
-  .vp-nav-links > .vp-nav-item:has(> .vp-dropdown-wrapper > .vp-dropdown-title[aria-label="交流群"]) {
+  .vp-nav-links > .vp-nav-item:has(> .vp-dropdown-wrapper > .vp-dropdown-title[aria-label="实战案例导航"]) {
     display: none !important;
   }
 
