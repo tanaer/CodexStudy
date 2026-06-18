@@ -79,6 +79,7 @@ CodexGuide 想做的不是命令速查表，而是一份面向真实任务的实
 | 赞助商 | 介绍 |
 | ------ | ---- |
 | <a href="https://unity2.ai/register?source=canghe"><img src="./assets/sponsors/unity2-ai.jpg" alt="Unity2.ai" width="240"></a> | 感谢 Unity2.ai 赞助了本项目！Unity2.ai 是面向个人开发者、团队和企业的高性能 AI 模型 API 中转平台，长期服务国内头部企业，日均承载超 300 亿 token 调用，支持 5000 RPM 级高并发。支持余额计费、首充赠额、组合订阅、企业开票和专属对接。通过此链接注册可领取 $2 余额，加入官方群再送 $10 余额，最高可领 $12 免费额度。 |
+| <a href="https://payforchat.com/register?ref=XJKHTC7N"><img src="./assets/sponsors/payforchat.jpg" alt="PayForChat" width="240"></a> | PayForChat 支持 ChatGPT、Claude 会员开通与充值：微信直付、无需海外信用卡，官方渠道为你自己的账号充值，不成功全额退款，中文售后、可开收据。 |
 | <a href="https://getgpt.pro/i/codexguide"><img src="./assets/sponsors/getgpt-pro.jpg" alt="GetGPT Pro" width="240"></a> | GetGPT Pro 提供 ChatGPT、Claude 等 AI 订阅开通与充值服务，支持自助下单、快速到账与售后支持。 |
 | <a href="https://pptoken.cc/"><img src="https://raw.githubusercontent.com/freestylefly/wesight/main/public/readme/sponsors/pptoken.png" alt="PPToken" width="240"></a> | 项目赞助。PPToken 提供 ChatGPT、Claude、Gemini 等主流 AI 模型 API 中转与密钥分发服务，支持低延迟、高可用、按量计费与订阅套餐灵活选择。 |
 | <a href="https://ciyuan.today/"><img src="https://raw.githubusercontent.com/freestylefly/wesight/main/public/readme/sponsors/ciyuan-api.jpg" alt="词元 API" width="240"></a> | 项目赞助。词元 API 致力于成为开发者的一站式 AI 接口平台，提供稳定、低延迟、高可用的大模型 API 服务，让 AI 应用开发更简单。 |
