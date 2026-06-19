@@ -5,7 +5,7 @@ description: "近期 Codex 更新中文摘要，依据 OpenAI 官方 Codex chang
 # 近期Codex更新
 
 :::: tip 最后核对
-官方资料最后核对日期：2026-06-18。本文依据 [OpenAI Codex changelog](https://developers.openai.com/codex/changelog) 整理，仅提供中文摘要和阅读索引；功能开放范围、账号计划、地区限制、模型可用性与版本号，请以官方原文为准。
+官方资料最后核对日期：2026-06-19。本文依据 [OpenAI Codex changelog](https://developers.openai.com/codex/changelog) 整理，仅提供中文摘要和阅读索引；功能开放范围、账号计划、地区限制、模型可用性与版本号，请以官方原文为准。
 ::::
 
 本页用于快速了解 Codex 近期变化，涵盖桌面 App、移动端、CLI、模型、插件、权限与远程控制等内容。为保持阅读清晰，本文自 2025 年起整理，并不逐项搬运官方 GitHub PR 清单。
@@ -32,6 +32,18 @@ description: "近期 Codex 更新中文摘要，依据 OpenAI 官方 Codex chang
 <h2 id="june-2026">2026 年 6 月</h2>
 
 [官方原文：June 2026](https://developers.openai.com/codex/changelog#month-2026-06)
+
+<article class="codex-update-entry">
+
+<p class="codex-update-date">2026-06-18</p>
+
+### Codex app <span class="codex-update-version">26.616</span>
+
+桌面端新增 Record & Replay，可在 macOS 上把用户演示过的流程转成可复用 skill；初始开放范围不含 EEA、UK 和 Switzerland，并要求用户或管理员启用 Computer Use。Automations 运行历史新增批量操作，可一键将运行记录标为已读，或归档符合条件的运行记录。
+
+本次更新还加入用于管理 SSH connections 的 deep links，并改进 Browser Use：当草稿浏览器会话转移到服务器时，visible-tab routing 与 annotations 会继续保留。官方同时标注包含其他性能改进和问题修复。
+
+</article>
 
 <article class="codex-update-entry">
 

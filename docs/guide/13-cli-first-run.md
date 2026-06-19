@@ -46,7 +46,7 @@ redirectFrom:
 5. 你建议我第一次交给你的低风险任务
 ```
 
-![image-20260511170254461](../images/image-20260511170254461.png)
+![codex-cli-repo-overview-response](../images/codex-cli-repo-overview-response.png)
 
 ## 第二步：给出小任务
 
@@ -76,7 +76,7 @@ redirectFrom:
 5. 最后列出来源链接和需要人工补图的位置。
 ```
 
-![image-20260511170405298](../images/image-20260511170405298.png)
+![codex-cli-small-task-response](../images/codex-cli-small-task-response.png)
 
 ## 第三步：观察过程
 
@@ -110,7 +110,7 @@ git diff
 4. 是否还有未验证的地方
 ```
 
-![image-20260511170740040](../images/image-20260511170740040.png)
+![codex-cli-review-diff-result](../images/codex-cli-review-diff-result.png)
 
 ## 第五步：提交前记录
 

@@ -68,4 +68,4 @@ redirectFrom:
 - 第一次配置时，建议先从低风险、只读型任务开始。
 - 如果自动化会写文件、访问外部系统或触发通知，最好先确认权限边界和人工复核方式。
 
-![image-20260511155400455](../images/image-20260511155400455.png)
+![codex-automation-create-dialog](../images/codex-automation-create-dialog.png)

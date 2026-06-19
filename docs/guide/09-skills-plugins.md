@@ -14,7 +14,7 @@ redirectFrom:
 
 如果你在 App 中看到了和技能、插件相关的入口，可以结合下面的概念来理解它们：
 
-![image-20260511153225029](../images/image-20260511153225029.png)
+![codex-skills-plugins-entry-page](../images/codex-skills-plugins-entry-page.png)
 
 ## Skill 是什么
 
@@ -27,7 +27,7 @@ redirectFrom:
 2. 必要时配套脚本、模板或参考文件
    用来帮助 Codex 更稳定地完成任务。
 
-![image-20260511153249467](../images/image-20260511153249467.png)
+![codex-skills-list](../images/codex-skills-list.png)
 
 常见使用方式是：
 
@@ -37,7 +37,7 @@ redirectFrom:
 
 有些工作区会提供更直接的安装或启用方式；也有一些场景里，需要先把 Skill 放到约定目录，或者通过现有插件能力来分发。稳妥起见，不建议把“给一个 GitHub 链接就一定能自动安装”写成固定结论，更好的表述是：可以把 Skill 来源交给 Codex 协助识别和安装，但具体流程会受客户端能力和工作区设置影响。
 
-![image-20260511153309947](../images/image-20260511153309947.png)
+![codex-skills-slash-command-list](../images/codex-skills-slash-command-list.png)
 
 ## Plugin 是什么
 
@@ -50,7 +50,7 @@ redirectFrom:
 
 所以 Skill 往往是具体流程本身，而 Plugin 更像承载这些流程和集成能力的安装单元。
 
-![image-20260511153326902](../images/image-20260511153326902.png)
+![codex-plugins-at-command-list](../images/codex-plugins-at-command-list.png)
 
 ## 怎么理解它们的关系
 
@@ -67,4 +67,4 @@ redirectFrom:
 - 如果插件涉及外部系统、浏览器、邮箱、知识库或项目管理工具，先确认它是只读还是可写。
 - 涉及安装、写回外部系统或共享给团队时，最好保留人工复核。
 
-![image-20260511153409165](../images/image-20260511153409165.png)
+![codex-plugin-install-github-prompt](../images/codex-plugin-install-github-prompt.png)

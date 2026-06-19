@@ -22,11 +22,11 @@ redirectFrom:
 
 打开”**设置**” → “**外观**”，往下滑到”**宠物**”这一栏。在这里可以选择喜欢的宠物类型并点击”**唤醒**”，桌面上就会出现选定的小宠物了。
 
-![image-20260512224500231](../images/image-20260512224500231.png)
+![codex-desktop-pet-plugin-install](../images/codex-desktop-pet-plugin-install.png)
 
 **快捷命令方式：** 如果不想进设置，也可以直接在聊天框中输入 `/`，选择”**宠物**”选项，同样可以唤醒或收起桌面宠物。
 
-![image-20260512225501451](../images/image-20260512225501451.png)
+![codex-desktop-pet-slash-command](../images/codex-desktop-pet-slash-command.png)
 
 ---
 
@@ -36,11 +36,11 @@ redirectFrom:
 
 比如下面这个情况：它正在进行搜索，并执行我们的任务。
 
-![image-20260512225715200](../images/image-20260512225715200.png)
+![codex-desktop-pet-task-bubble](../images/codex-desktop-pet-task-bubble.png)
 
 任务完成之后，会显示一个**绿色对勾**，提示任务已完成。也就是说，我们可以实时看到它的执行过程以及完成结果，完全不需要盯着 Codex 窗口等待。
 
-![image-20260512230004092](../images/image-20260512230004092.png)
+![codex-desktop-pet-completed-task-bubble](../images/codex-desktop-pet-completed-task-bubble.png)
 
 
 

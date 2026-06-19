@@ -29,27 +29,27 @@ CLI 的使用方式见 [CLI 安装与登录](./12-cli-installation.md)，IDE 插
 
 访问：[https://chatgpt.com/codex/cloud](https://chatgpt.com/codex/cloud)
 
-![image-20260513124118871](../images/image-20260513124118871.png)
+![codex-cloud-connect-github-button](../images/codex-cloud-connect-github-button.png)
 
 连接成功后会跳转到任务页面：
 
-![image-20260513124234976](../images/image-20260513124234976.png)
+![codex-cloud-start-task-page](../images/codex-cloud-start-task-page.png)
 
 ### 第 2 步：授权并选择仓库
 
 Cloud 模式直接在 GitHub 仓库中运行，需要先完成授权。你可以授权全部仓库，也可以只选择特定仓库：
 
-![image-20260513124426627](../images/image-20260513124426627.png)
+![codex-cloud-github-repository-authorization](../images/codex-cloud-github-repository-authorization.png)
 
 ### 第 3 步：下达指令，查看任务进度
 
 下达指令后，Codex 会在云端执行任务，进度显示在页面下方的任务列表里：
 
-![image-20260513124638212](../images/image-20260513124638212.png)
+![codex-cloud-repository-context-prompt](../images/codex-cloud-repository-context-prompt.png)
 
 点击任务可以查看每一步的执行过程和中间状态。任务完成后也可以查看最终回答和产出内容：
 
-![image-20260513124727322](../images/image-20260513124727322.png)
+![codex-cloud-task-progress-result](../images/codex-cloud-task-progress-result.png)
 
 ---
 

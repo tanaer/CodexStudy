@@ -16,15 +16,15 @@ redirectFrom:
 
 然后点击创建新的对话。
 
-![Xnapper-2026-05-11-15.08.36](../images/Xnapper-2026-05-11-15.08.36.png)
+![codex-task-sequential-new-chat](../images/codex-task-sequential-new-chat.png)
 
 我们向 CodeX 发送任务，让他帮我们设计一个网站，这个时候他就会开始执行。
 
-![image-20260511151615728](../images/image-20260511151615728.png)
+![codex-task-sequential-first-prompt](../images/codex-task-sequential-first-prompt.png)
 
 在这个任务没有执行的过程中，如果我们去给他下达新的命令，就只能等待。显示的是下面这种情况：
 
-![image-20260511153100591](../images/image-20260511153100591.png)
+![codex-task-sequential-queued-tasks](../images/codex-task-sequential-queued-tasks.png)
 
 这种相当于当前他正在执行一个任务，我们给他的另外两个命令就需要排队，必须等前面的任务执行完成之后才能执行。
 
