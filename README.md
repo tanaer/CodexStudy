@@ -56,9 +56,6 @@ CodexStudy 想做的不是命令速查表，而是一份面向真实任务的实
 
 ## ❤️ 赞助商
 
-| 赞助商 | 介绍 |
-| ------ | ---- |
-| <a href="https://Muskapi.com/register?utm_source=CodexStudy"><img src="./assets/sponsors/jzlogo_new.png" alt="MuskAI" width="240"></a> | 感谢 MuskAPI 赞助了本项目！MuskAPI.COM 是面向个人开发者、团队和企业的高性能 AI 模型 API 中转平台，长期服务国内头部企业，日均承载超 300 亿 token 调用，支持 5000 RPM 级高并发。支持余额计费、首充赠额、组合订阅、企业开票和专属对接。 |
 
 
 ## 你会在这里看到什么
