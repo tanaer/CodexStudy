@@ -1,15 +1,10 @@
-<p align="center">
-  <img src="./assets/banner.svg" alt="CodexGuide" width="920" />
-</p>
-
 <h3 align="center">面向全球初学者、创作者、开发者与团队的 Codex 实践指南</h3>
 
 <p align="center">
-  <a href="https://codexguide.ai/"><img src="https://img.shields.io/badge/Docs-codexguide.ai-0f766e?style=flat-square" alt="Docs"></a>
-  <a href="https://github.com/freestylefly/CodexGuide/stargazers"><img src="https://img.shields.io/github/stars/freestylefly/CodexGuide?style=flat-square&color=111827" alt="Stars"></a>
-  <a href="https://github.com/freestylefly/CodexGuide/network/members"><img src="https://img.shields.io/github/forks/freestylefly/CodexGuide?style=flat-square&color=0f766e" alt="Forks"></a>
-  <a href="https://github.com/freestylefly/CodexGuide/issues"><img src="https://img.shields.io/github/issues/freestylefly/CodexGuide?style=flat-square&color=2563eb" alt="Issues"></a>
-  <a href="./LICENSE"><img src="https://img.shields.io/github/license/freestylefly/CodexGuide?style=flat-square&color=f59e0b" alt="License"></a>
+  <a href="https://github.com/tanaer/CodexStudy/stargazers"><img src="https://img.shields.io/github/stars/tanaer/CodexStudy?style=flat-square&color=111827" alt="Stars"></a>
+  <a href="https://github.com/tanaer/CodexStudy/network/members"><img src="https://img.shields.io/github/forks/tanaer/CodexStudy?style=flat-square&color=0f766e" alt="Forks"></a>
+  <a href="https://github.com/tanaer/CodexStudy/issues"><img src="https://img.shields.io/github/issues/tanaer/CodexStudy?style=flat-square&color=2563eb" alt="Issues"></a>
+  <a href="./LICENSE"><img src="https://img.shields.io/github/license/tanaer/CodexStudy?style=flat-square&color=f59e0b" alt="License"></a>
   <a href="./CONTRIBUTING.md"><img src="https://img.shields.io/badge/PRs-welcome-14b8a6?style=flat-square" alt="PRs Welcome"></a>
 </p>
 
@@ -17,8 +12,6 @@
   简体中文
   ·
   <a href="./README_en.md">English</a>
-  ·
-  <a href="https://codexguide.ai/">在线阅读</a>
   ·
   <a href="./docs/guide/00-overview.md">学习路线</a>
   ·
@@ -38,25 +31,14 @@
 > 从第一次上手，到把 Codex 接入真实工作流；帮助不同背景的人用 Codex 完成开发、创作、研究、自动化与团队协作。
 > 如果这个项目帮你节省了摸索时间，欢迎点亮 Star，让更多人看到它。
 
-## 在线网站
-
-**CodexGuide 的在线阅读地址是 [codexguide.ai](https://codexguide.ai/)。**
-
-<p align="center">
-  <a href="https://codexguide.ai/">
-    <img src="./assets/homepage-preview.png" alt="CodexGuide 网站首页预览" width="920" />
-  </a>
-</p>
 
 GitHub README 适合快速了解项目，真正学习时更推荐打开网站阅读：网站里有更完整的导航、搜索、侧边栏目录、截图、设置速查图、学习路线和实战案例。每篇关键资料都会尽量标注最后核对日期，方便你判断内容是否需要回到 OpenAI 官方资料重新确认。
-
-如果你正在第一次接触 Codex，可以直接从网站的 [学习路线](https://codexguide.ai/guide/00-overview.html) 开始；如果你已经知道自己要用 CLI、桌面 App、Cloud 或 IDE，可以先看 [入口地图](https://codexguide.ai/platform/)。
 
 ## 项目愿景
 
 Codex 正在从“帮你写代码的工具”，演进为一套覆盖 CLI、Cloud/Web、IDE extension、桌面 App、移动端协同、浏览器和自动化能力的 AI 工作流系统。
 
-CodexGuide 想做的不是命令速查表，而是一份面向真实任务的实践知识库。它关注三个问题：
+CodexStudy 想做的不是命令速查表，而是一份面向真实任务的实践知识库。它关注三个问题：
 
 - **怎么开始**：初学者应该从哪个入口、哪个任务、哪个设置开始。
 - **怎么交付**：如何把需求讲清楚，让 Codex 读项目、改文件、跑命令、给出可检查结果。
@@ -74,15 +56,10 @@ CodexGuide 想做的不是命令速查表，而是一份面向真实任务的实
 
 ## ❤️ 赞助商
 
-> [想出现在这里？](https://raw.githubusercontent.com/freestylefly/wesight/main/public/readme/community/wechat-personal.jpg) 添加微信时请备注你的产品名和项目赞助说明。
-
 | 赞助商 | 介绍 |
 | ------ | ---- |
-| <a href="https://unity2.ai/register?source=canghe"><img src="./assets/sponsors/unity2-ai.jpg" alt="Unity2.ai" width="240"></a> | 感谢 Unity2.ai 赞助了本项目！Unity2.ai 是面向个人开发者、团队和企业的高性能 AI 模型 API 中转平台，长期服务国内头部企业，日均承载超 300 亿 token 调用，支持 5000 RPM 级高并发。支持余额计费、首充赠额、组合订阅、企业开票和专属对接。通过此[链接](https://unity2.ai/register?source=canghe)注册可领取 $2 余额，加入官方群再送 $10 余额，最高可领 $12 免费额度。 |
-| <a href="https://payforchat.com/register?ref=XJKHTC7N"><img src="./assets/sponsors/payforchat.jpg" alt="PayForChat" width="240"></a> | PayForChat 支持 ChatGPT、Claude 会员开通与充值：微信直付、无需海外信用卡，官方渠道为你自己的账号充值，不成功全额退款，中文售后、可开收据。点击[这里](https://payforchat.com/register?ref=XJKHTC7N)注册体验。 |
-| <a href="https://getgpt.pro/i/codexguide"><img src="./assets/sponsors/getgpt-pro.jpg" alt="GetGPT Pro" width="240"></a> | GetGPT Pro 提供 ChatGPT、Claude 等 AI 订阅开通与充值服务，支持自助下单、快速到账与售后支持。 |
-| <a href="https://pptoken.cc/"><img src="https://raw.githubusercontent.com/freestylefly/wesight/main/public/readme/sponsors/pptoken.png" alt="PPToken" width="240"></a> | 项目赞助。PPToken 提供 ChatGPT、Claude、Gemini 等主流 AI 模型 API 中转与密钥分发服务，支持低延迟、高可用、按量计费与订阅套餐灵活选择。 |
-| <a href="https://ciyuan.today/"><img src="https://raw.githubusercontent.com/freestylefly/wesight/main/public/readme/sponsors/ciyuan-api.jpg" alt="词元 API" width="240"></a> | 项目赞助。词元 API 致力于成为开发者的一站式 AI 接口平台，提供稳定、低延迟、高可用的大模型 API 服务，让 AI 应用开发更简单。 |
+| <a href="https://Muskapi.com/register?utm_source=CodexStudy"><img src="https://cfpic.890214.net/file/pc/1772809233237_jzlogo.png" alt="MuskAI" width="240"></a> | 感谢 MuskAPI 赞助了本项目！MuskAPI.COM 是面向个人开发者、团队和企业的高性能 AI 模型 API 中转平台，长期服务国内头部企业，日均承载超 300 亿 token 调用，支持 5000 RPM 级高并发。支持余额计费、首充赠额、组合订阅、企业开票和专属对接。 |
+
 
 ## 你会在这里看到什么
 
@@ -132,7 +109,7 @@ CodexGuide 想做的不是命令速查表，而是一份面向真实任务的实
 ## 内容框架
 
 ```text
-CodexGuide
+CodexStudy
 ├─ guide         # 从入门到团队化的实践指南
 ├─ platform      # CLI、App、Cloud、IDE、ChatGPT 入口地图
 ├─ configuration # CLI 选项、config.toml、MCP、Skills、安全审批
@@ -175,7 +152,6 @@ pnpm dev
 pnpm build
 ```
 
-默认开发服务会启动 VuePress 文档站。线上版本会发布到 [codexguide.ai](https://codexguide.ai/)。
 
 ## 设计原则
 
@@ -187,7 +163,7 @@ pnpm build
 
 ## Star 趋势图
 
-[![Star History Chart](https://api.star-history.com/svg?repos=freestylefly/CodexGuide&type=Date)](https://www.star-history.com/#freestylefly/CodexGuide&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=tanaer/CodexStudy&type=Date)](https://www.star-history.com/#tanaer/CodexStudy&Date)
 
 ## 公众号
 
