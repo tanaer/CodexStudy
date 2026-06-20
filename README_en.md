@@ -1,7 +1,3 @@
-<p align="center">
-  <img src="./assets/banner.svg" alt="CodexStudy" width="920" />
-</p>
-
 <h3 align="center">A practical Codex guide for global beginners, creators, developers, and teams</h3>
 
 <p align="center">
@@ -58,11 +54,9 @@ The guide is mainly written in Chinese today, but its audience is broader than C
 
 ## ❤️ Sponsors
 
-> [Want to appear here?](https://raw.githubusercontent.com/tanaer/wesight/main/public/readme/community/wechat-personal.jpg) Add me on WeChat and include your product name plus a short project sponsorship note in the friend request.
-
 | Sponsor | Description |
 | ------- | ----------- |
-| <a href="https://Muskapi.com/register?utm_source=CodexStudy"><img src="https://cfpic.890214.net/file/pc/1772809233237_jzlogo.png" alt="MuskAI" width="240"></a> |
+| <a href="https://Muskapi.com/register?utm_source=CodexStudy"><img src=./assets/sponsors/jzlogo_new.png" alt="MuskAI" width="240"></a> |
  Thanks to MuskAPI for sponsoring this project. MuskAPI is a high-performance AI model API relay platform for individual developers, teams, and enterprises. It has long served leading Chinese enterprises, handles more than 30 billion token calls per day, and supports 5000 RPM-level high concurrency. It supports balance-based billing, first top-up bonuses, bundled subscriptions, enterprise invoicing, and dedicated support.
 
 ## What You'll Find
