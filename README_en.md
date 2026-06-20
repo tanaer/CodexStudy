@@ -1,15 +1,14 @@
 <p align="center">
-  <img src="./assets/banner.svg" alt="CodexGuide" width="920" />
+  <img src="./assets/banner.svg" alt="CodexStudy" width="920" />
 </p>
 
 <h3 align="center">A practical Codex guide for global beginners, creators, developers, and teams</h3>
 
 <p align="center">
-  <a href="https://codexguide.ai/"><img src="https://img.shields.io/badge/Docs-codexguide.ai-0f766e?style=flat-square" alt="Docs"></a>
-  <a href="https://github.com/freestylefly/CodexGuide/stargazers"><img src="https://img.shields.io/github/stars/freestylefly/CodexGuide?style=flat-square&color=111827" alt="Stars"></a>
-  <a href="https://github.com/freestylefly/CodexGuide/network/members"><img src="https://img.shields.io/github/forks/freestylefly/CodexGuide?style=flat-square&color=0f766e" alt="Forks"></a>
-  <a href="https://github.com/freestylefly/CodexGuide/issues"><img src="https://img.shields.io/github/issues/freestylefly/CodexGuide?style=flat-square&color=2563eb" alt="Issues"></a>
-  <a href="./LICENSE"><img src="https://img.shields.io/github/license/freestylefly/CodexGuide?style=flat-square&color=f59e0b" alt="License"></a>
+  <a href="https://github.com/tanaer/CodexStudy/stargazers"><img src="https://img.shields.io/github/stars/tanaer/CodexStudy?style=flat-square&color=111827" alt="Stars"></a>
+  <a href="https://github.com/tanaer/CodexStudy/network/members"><img src="https://img.shields.io/github/forks/tanaer/CodexStudy?style=flat-square&color=0f766e" alt="Forks"></a>
+  <a href="https://github.com/tanaer/CodexStudy/issues"><img src="https://img.shields.io/github/issues/tanaer/CodexStudy?style=flat-square&color=2563eb" alt="Issues"></a>
+  <a href="./LICENSE"><img src="https://img.shields.io/github/license/tanaer/CodexStudy?style=flat-square&color=f59e0b" alt="License"></a>
   <a href="./CONTRIBUTING.md"><img src="https://img.shields.io/badge/PRs-welcome-14b8a6?style=flat-square" alt="PRs Welcome"></a>
 </p>
 
@@ -17,8 +16,6 @@
   English
   ·
   <a href="./README.md">简体中文</a>
-  ·
-  <a href="https://codexguide.ai/">Read Online</a>
   ·
   <a href="./docs/guide/00-overview.md">Learning Path</a>
   ·
@@ -35,28 +32,15 @@
   <a href="./docs/community/roadmap.md">Roadmap</a>
 </p>
 
-> From the first hands-on session to real workflow adoption, CodexGuide helps people use Codex for development, creation, research, automation, and team collaboration.
+> From the first hands-on session to real workflow adoption, CodexStudy helps people use Codex for development, creation, research, automation, and team collaboration.
 > If this project saves you exploration time, a Star helps more people discover it.
 
-## Website
-
-**CodexGuide is available at [codexguide.ai](https://codexguide.ai/).**
-
-<p align="center">
-  <a href="https://codexguide.ai/">
-    <img src="./assets/homepage-preview.png" alt="CodexGuide website homepage preview" width="920" />
-  </a>
-</p>
-
-The GitHub README is a quick project overview. For actual learning, the website provides fuller navigation, search, sidebars, screenshots, setup maps, learning paths, and hands-on examples. Key pages are marked with review dates whenever possible, so you can decide when to verify details against official OpenAI sources.
-
-If you are new to Codex, start with the [Learning Path](https://codexguide.ai/guide/00-overview.html). If you already know whether you want CLI, Desktop App, Cloud, or IDE workflows, start from the [Entry Map](https://codexguide.ai/platform/).
 
 ## Vision
 
 Codex is evolving from a coding assistant into an AI workflow system across CLI, Cloud/Web, IDE extension, desktop app, mobile collaboration, browser control, and automation.
 
-CodexGuide is a practical knowledge base for real tasks. It focuses on three questions:
+CodexStudy is a practical knowledge base for real tasks. It focuses on three questions:
 
 - **How to start**: which entry point, task, and setting should beginners choose first.
 - **How to deliver**: how to describe work clearly so Codex can read projects, edit files, run commands, and return checkable results.
@@ -74,15 +58,12 @@ The guide is mainly written in Chinese today, but its audience is broader than C
 
 ## ❤️ Sponsors
 
-> [Want to appear here?](https://raw.githubusercontent.com/freestylefly/wesight/main/public/readme/community/wechat-personal.jpg) Add me on WeChat and include your product name plus a short project sponsorship note in the friend request.
+> [Want to appear here?](https://raw.githubusercontent.com/tanaer/wesight/main/public/readme/community/wechat-personal.jpg) Add me on WeChat and include your product name plus a short project sponsorship note in the friend request.
 
 | Sponsor | Description |
 | ------- | ----------- |
-| <a href="https://unity2.ai/register?source=canghe"><img src="./assets/sponsors/unity2-ai.jpg" alt="Unity2.ai" width="240"></a> | Thanks to Unity2.ai for sponsoring this project. Unity2.ai is a high-performance AI model API relay platform for individual developers, teams, and enterprises. It has long served leading Chinese enterprises, handles more than 30 billion token calls per day, and supports 5000 RPM-level high concurrency. It supports balance-based billing, first top-up bonuses, bundled subscriptions, enterprise invoicing, and dedicated support. Register through this [link](https://unity2.ai/register?source=canghe) to receive a $2 balance, then join the official community to receive another $10 balance, for up to $12 in free credits. |
-| <a href="https://payforchat.com/register?ref=XJKHTC7N"><img src="./assets/sponsors/payforchat.jpg" alt="PayForChat" width="240"></a> | PayForChat supports ChatGPT and Claude membership activation and top-ups: pay directly with WeChat, no overseas credit card required, top up your own account through official channels, receive a full refund if it fails, and get Chinese support plus receipts. Click [here](https://payforchat.com/register?ref=XJKHTC7N) to register and try it. |
-| <a href="https://getgpt.pro/i/codexguide"><img src="./assets/sponsors/getgpt-pro.jpg" alt="GetGPT Pro" width="240"></a> | GetGPT Pro provides AI subscription activation and top-up services for ChatGPT, Claude, and other tools, with self-service ordering, fast delivery, and after-sales support. |
-| <a href="https://pptoken.cc/"><img src="https://raw.githubusercontent.com/freestylefly/wesight/main/public/readme/sponsors/pptoken.png" alt="PPToken" width="240"></a> | Project sponsor. PPToken provides API relay and key distribution for ChatGPT, Claude, Gemini and other mainstream AI models, with low latency, high availability, pay-as-you-go billing, and flexible subscription plans. |
-| <a href="https://ciyuan.today/"><img src="https://raw.githubusercontent.com/freestylefly/wesight/main/public/readme/sponsors/ciyuan-api.jpg" alt="Ciyuan API" width="240"></a> | Project sponsor. Ciyuan API aims to become a one-stop AI interface platform for developers, providing stable, low-latency, and highly available large model API services to make AI application development simpler. |
+| <a href="https://Muskapi.com/register?utm_source=CodexStudy"><img src="https://cfpic.890214.net/file/pc/1772809233237_jzlogo.png" alt="MuskAI" width="240"></a> |
+ Thanks to MuskAPI for sponsoring this project. MuskAPI is a high-performance AI model API relay platform for individual developers, teams, and enterprises. It has long served leading Chinese enterprises, handles more than 30 billion token calls per day, and supports 5000 RPM-level high concurrency. It supports balance-based billing, first top-up bonuses, bundled subscriptions, enterprise invoicing, and dedicated support.
 
 ## What You'll Find
 
@@ -131,7 +112,7 @@ Start with the [Team Playbook](./docs/practice/team-playbook.md), then add [Conf
 ## Content Structure
 
 ```text
-CodexGuide
+CodexStudy
 ├─ guide         # Practical guides from beginner use to team adoption
 ├─ platform      # CLI, App, Cloud, IDE, and ChatGPT entry map
 ├─ configuration # CLI options, config.toml, MCP, Skills, safety approvals
@@ -159,7 +140,6 @@ Build the static site:
 pnpm build
 ```
 
-The development server starts the VuePress documentation site. The production site is published at [codexguide.ai](https://codexguide.ai/).
 
 ## Design Principles
 
@@ -171,15 +151,7 @@ The development server starts the VuePress documentation site. The production si
 
 ## Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=freestylefly/CodexGuide&type=Date)](https://www.star-history.com/#freestylefly/CodexGuide&Date)
-
-## WeChat Official Account
-
-Search **苍何** on WeChat or scan the QR code below. Reply with **codex交流群** to join the community group.
-
-<p align="center">
-  <img src="./assets/wechat-codex-group.png" alt="Follow Canghe on WeChat and reply codex交流群 to join the community" width="820" />
-</p>
+[![Star History Chart](https://api.star-history.com/svg?repos=tanaer/CodexStudy&type=Date)](https://www.star-history.com/#tanaer/CodexStudy&Date)
 
 ## Sources
 
@@ -209,4 +181,4 @@ This project is open-sourced under the [MIT License](./LICENSE). You may use, mo
 
 ## Disclaimer
 
-CodexGuide is a community-maintained Codex practice knowledge base and is not an official OpenAI project. For time-sensitive details such as features, plans, pricing, availability, and safety policies, please refer to official OpenAI sources.
+CodexStudy is a community-maintained Codex practice knowledge base and is not an official OpenAI project. For time-sensitive details such as features, plans, pricing, availability, and safety policies, please refer to official OpenAI sources.
