@@ -56,8 +56,7 @@ The guide is mainly written in Chinese today, but its audience is broader than C
 
 | Sponsor | Description |
 | ------- | ----------- |
-| <a href="https://Muskapi.com/register?utm_source=CodexStudy"><img src="./assets/sponsors/jzlogo_new.png" alt="MuskAI" width="240"></a> |
- Thanks to MuskAPI for sponsoring this project. MuskAPI is a high-performance AI model API relay platform for individual developers, teams, and enterprises. It has long served leading Chinese enterprises, handles more than 30 billion token calls per day, and supports 5000 RPM-level high concurrency. It supports balance-based billing, first top-up bonuses, bundled subscriptions, enterprise invoicing, and dedicated support.|
+| <a href="https://Muskapi.com/register?utm_source=CodexStudy"><img src="./assets/sponsors/jzlogo_new.png" alt="MuskAI" width="240"></a> | Thanks to MuskAPI for sponsoring this project. MuskAPI is a high-performance AI model API relay platform for individual developers, teams, and enterprises. It has long served leading Chinese enterprises, handles more than 30 billion token calls per day, and supports 5000 RPM-level high concurrency. It supports balance-based billing, first top-up bonuses, bundled subscriptions, enterprise invoicing, and dedicated support.|
 
 ## What You'll Find
 
