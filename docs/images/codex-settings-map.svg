@@ -110,4 +110,8 @@
       <text class="muted" x="954" y="485">中</text>
     </g>
   </g>
+  <g class="font" opacity="0.86">
+    <rect x="1044" y="714" width="112" height="28" rx="14" fill="#ffffff" stroke="#d4d4d4" />
+    <text x="1100" y="733" text-anchor="middle" font-size="13" font-weight="700" fill="#111827">CodexStudy</text>
+  </g>
 </svg>
